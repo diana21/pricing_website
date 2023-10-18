@@ -1,0 +1,400 @@
+.navbar {
+    background: #FFF;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.display-5 {
+    margin-top: 60px;
+    font-family: Linden Hill;
+    margin-bottom: 28px;
+}
+
+.navBarProfile {
+    margin-right: 86px;
+    color: #1D1B1B;
+    font-size: 22px;
+    font-family: Linden Hill;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.saasLogoNavbar {
+    height: 42px;
+    flex-shrink: 0;
+}
+
+.navBarItem {
+    margin-right: 86px;
+    color: #1D1B1B;
+    font-size: 20px;
+    font-family: Linden Hill;
+    font-weight: 300;
+    word-wrap: break-word
+}
+
+.saasWordNavbar {
+    margin-left: 4px;
+    width: 60px;
+    height: 22px;
+    flex-shrink: 0;
+    margin-right: 80px;
+}
+
+#searchInput {
+    font-size: 14px;
+    font-family: Linden Hill;
+    border-radius: 50px 0px 0px 50px;
+    height: 38px;
+    margin-top: 9px;
+    width: 160px;
+    margin-left: 320px;
+}
+
+#searchInput:focus {
+    box-shadow: none;
+    border-color: #D9D9D9;
+}
+
+#submitButton {
+    height: 38px;
+    margin-top: 9px;
+    width: 45px;
+    border-radius: 0px 50px 50px 0px;
+    border-color: #D9D9D9;
+}
+
+#submitButton:focus {
+    border-color: #D9D9D9;
+    background-color: #FFC9C9;
+}
+
+.searchLogo {
+    height: 15px;
+    width: 15px;
+}
+
+.profile-image {
+    border-radius: 52px;
+    background-color: azure;
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.navbar-text {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* pricing toggle */
+
+.display-5 {
+    margin-top: 60px;
+    font-family: Linden Hill;
+    margin-bottom: 28px;
+}
+
+#price-dollar-freePlan {
+    color: #1D1B1B;
+    font-size: 40px;
+    font-family: Linden Hill;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+#price-time-freePlan {
+    color: rgba(0, 0, 0, 0.62);
+    font-size: 20px;
+    font-family: Linden Hill;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+#price-dollar-proPlan,
+#price-dollar-unlimitedPlan {
+    color: #1D1B1B;
+    font-size: 40px;
+    font-family: Linden Hill;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+#price-time-proPlan,
+#price-time-unlimitedPlan {
+    color: rgba(0, 0, 0, 0.62);
+    font-size: 20px;
+    font-family: Linden Hill;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.card-title {
+    height: 50px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.card-text {
+    margin-top: -18px;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.pricing-toggle {
+    background-color: #ffffff;
+    padding: 14px 5px;
+    border-radius: 30px;
+    display: inline-block;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.pricing-toggle [name="pricing"] {
+    display: none
+}
+
+.pricing-toggle input[type="radio"]+label {
+    padding: 0px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 50px;
+    background: white;
+}
+
+.pricing-toggle input[type="radio"]:checked+label {
+    background: rgba(194, 21, 0, 0.17)
+}
+
+.free-plan-detail {
+    width: 26px;
+    height: 26px;
+    flex-shrink: 0;
+    margin-right: 7px;
+}
+
+.pro-plan-detail {
+    width: 26px;
+    height: 26px;
+    flex-shrink: 0;
+    margin-right: 7px;
+}
+
+.unlimited-plan-detail {
+    width: 26px;
+    height: 26px;
+    flex-shrink: 0;
+    margin-right: 7px;
+}
+
+.cardOuter {
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: center; */
+    width: 300px;
+    margin-top: 60px;
+    border-radius: 20px;
+    border: 1px solid #D9D9D9;
+    background: linear-gradient(180deg, rgba(255, 201, 201, 0.39) 0%, rgba(217, 217, 217, 0.00) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.cardInner {
+    /* display: flex; */
+    border-radius: 20px;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+    /* justify-content: center; */
+    margin-bottom: 20px;
+    margin-top: -13px;
+    height: 160px;
+    width: 15rem;
+    cursor: pointer;
+}
+
+.customerComment {
+    text-align: center;
+    margin: 12px;
+}
+
+.card-scroll {
+    display: flex;
+    overflow-x: scroll;
+    width: 100vw;
+}
+
+@media (max-width : 1412) {
+    .card-scroll .card-outer-1 .card-outer-2 .card-outer-3 {
+        margin-right: 5px;
+    }
+}
+
+
+.pt-60 {
+    margin-top: 60px !important;
+}
+
+/* .iconFAQ {
+    transition: transform 0.2s;
+} */
+
+.FAQTittle01 {
+    font-family: Linden Hill;
+    font-size: 35px;
+    color: #C21500;
+    text-align: center;
+}
+
+.FAQTittle02 {
+    font-family: Linden Hill;
+    font-size: 35px;
+    color: #1D1B1B;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.iconFAQ {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.parentFAQ {
+    color: #000;
+    font-family: Linden Hill;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 48px;
+    margin-bottom: 5px;
+}
+
+.childFAQ {
+    color: #C21500;
+    font-family: Linden Hill;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.containerGetStarted {
+    background: #FFC9C9;
+}
+
+.head1,
+.head2 {
+    color: #1D1B1B;
+    font-family: Linden Hill;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px;
+}
+
+#btnSignup {
+    border-radius: 50px;
+    border: 1px solid #868686;
+    background: #FFF;
+    width: 200px;
+    height: 70px;
+    flex-shrink: 0;
+    margin-bottom: 24px;
+    margin-top: 10px;
+}
+
+#btnSignup:hover {
+    color: #ffffff;
+    background-color: #1D1B1B;
+}
+
+#saas_logo {
+    height: 36px;
+    flex-shrink: 0;
+}
+
+#saas_word {
+    margin-left: 10px;
+    width: 86px;
+    height: 36px;
+    flex-shrink: 0;
+    margin-right: 100px;
+}
+
+.companyAddress {
+    color: #1D1B1B;
+    font-family: Linden Hill;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 50px;
+    margin-top: 12px;
+}
+
+.contactLogo,
+.phoneLogo {
+    width: 20px;
+    height: 20px;
+}
+
+.companyEmailDetail,
+.companyPhoneDetail {
+    margin-right: 100px;
+    color: #1D1B1B;
+    font-family: Linden Hill;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.companyPhone {
+    margin-top: 12px;
+}
+
+.productList {
+    margin-right: 100px;
+    color: #C21500;
+    font-family: Linden Hill;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.productListName {
+    margin-right: 100px;
+    color: #1D1B1B;
+    font-family: Linden Hill;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 30px; */
+    margin-top: 12px;
+}
+
+.copyRight_logo {
+    width: 12px;
+    height: 12px;
+}
+
+.copyRight {
+    color: #1D1B1B;
+    font-family: Linden Hill;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px;
+    /* 295.455% */
+}
+
+.socialMediaLogo {
+    width: 20px;
+    height: 20px;
+    margin-right: 18px;
+    flex-shrink: 0;
+}
