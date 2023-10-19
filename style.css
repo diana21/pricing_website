@@ -1,3 +1,7 @@
+body {
+    font-family: revert-layer !important;
+}
+
 .navbar {
     background: #FFF;
     margin-bottom: 10px;
@@ -7,7 +11,6 @@
 .display-5 {
     margin-top: 60px;
     font-family: Linden Hill;
-    margin-bottom: 28px;
 }
 
 .navBarProfile {
@@ -315,14 +318,14 @@
 }
 
 #saas_logo {
-    height: 36px;
+    height: 32px;
     flex-shrink: 0;
 }
 
 #saas_word {
     margin-left: 10px;
-    width: 86px;
-    height: 36px;
+    width: 54px;
+    height: 26px;
     flex-shrink: 0;
     margin-right: 100px;
 }
@@ -334,13 +337,13 @@
     font-style: normal;
     font-weight: 300;
     line-height: 50px;
-    margin-top: 12px;
+    margin-bottom: -2px;
 }
 
 .contactLogo,
 .phoneLogo {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
 }
 
 .companyEmailDetail,
@@ -350,11 +353,11 @@
     font-family: Linden Hill;
     font-size: 14px;
     font-style: normal;
-    font-weight: 400;
+    margin-top: 5px;
 }
 
 .companyPhone {
-    margin-top: 12px;
+    margin-top: 8px;
 }
 
 .productList {
