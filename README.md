@@ -19,12 +19,21 @@
 4. IDE (VsCode)
 5. Design (Figma)
 
-### Simple Pricing Plan Website Overview
+### Simple Pricing Plan Website Overview Dekstop Screen
 
 <img src="./imgDoc/pricingCard.png">
 <img src="./imgDoc/customerSay.png">
 <img src="./imgDoc/FAQ.png">
 <img src="./imgDoc/getStarted&Footer.png">
+
+### Simple Pricing Plan Website Overview Mobile Screen
+
+<img src="./imgDoc/responsiveNavbar.png">
+<img src="./imgDoc/navBar&pricingCard.png">
+<img src="./imgDoc/customerSay_02.png">
+<img src="./imgDoc/FAQ_02.png">
+<img src="./imgDoc/getStarted_02.png">
+<img src="./imgDoc/footer_02.png">
 
 ### Design Overview :
 

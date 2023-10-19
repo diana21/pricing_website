@@ -2,24 +2,23 @@ body {
     font-family: revert-layer !important;
 }
 
-.navbar {
+.navbarParent {
     background: #FFF;
     margin-bottom: 10px;
     margin-bottom: 10px;
 }
 
-.display-5 {
-    margin-top: 60px;
-    font-family: Linden Hill;
+.dContents {
+    display: contents !important;
 }
 
 .navBarProfile {
     margin-right: 86px;
     color: #1D1B1B;
-    font-size: 22px;
+    font-size: 20px;
     font-family: Linden Hill;
-    font-weight: 400;
-    word-wrap: break-word
+    font-weight: 300;
+    word-wrap: break-word;
 }
 
 .saasLogoNavbar {
@@ -33,7 +32,7 @@ body {
     font-size: 20px;
     font-family: Linden Hill;
     font-weight: 300;
-    word-wrap: break-word
+    word-wrap: break-word;
 }
 
 .saasWordNavbar {
