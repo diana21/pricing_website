@@ -1,6 +1,6 @@
 # Simple Pricing Plan Website
 
-### This simple pricing plan website is the website that contain :
+### This simple responsive pricing plan website is the website that contain :
 
 1. Navigation Bar
 2. Pricing Plan
