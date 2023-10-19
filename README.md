@@ -28,7 +28,7 @@
 
 ### Simple Pricing Plan Website Overview Mobile Screen
 
-<img src="./imgDoc/responsiveNavbar.png">
+<img src="./imgDoc/responsiveNavBar.png">
 <img src="./imgDoc/navBar&pricingCard.png">
 <img src="./imgDoc/customerSay_02.png">
 <img src="./imgDoc/FAQ_02.png">
