@@ -21,10 +21,10 @@
 
 ### Simple Pricing Plan Website Overview
 
-<img src="./pricingCard.png">
-<img src="./customerSay.png">
-<img src="./FAQ.png">
-<img src="./getStarted&Footer.png">
+<img src="./imgDoc/pricingCard.png">
+<img src="./imgDoc/customerSay.png">
+<img src="./imgDoc/FAQ.png">
+<img src="./imgDoc/getStarted&Footer.png">
 
 ### Design Overview :
 
