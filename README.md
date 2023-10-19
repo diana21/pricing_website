@@ -1,15 +1,13 @@
 # Simple Pricing Plan Website
 
-### What is simple pricing plan website ?
-
 ### This simple pricing plan website is the website that contain :
 
-1. Responsive Navigation Bar
-2. Responsive Pricing Plan
-3. Responsive Customer Review / Say
-4. Responsive FAQ (Frequently Asked Question)
-5. Responsive Get Started Button
-6. Responsive Footer
+1. Navigation Bar
+2. Pricing Plan
+3. Customer Review / Say
+4. FAQ (Frequently Asked Question)
+5. Get Started Button
+6. Footer
 
 ### Tools I Used :
 
